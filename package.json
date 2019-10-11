@@ -22,7 +22,6 @@
   "homepage": "https://github.com/ketchupTJC/catchupTJC#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^1.19.3",
     "path": "^0.12.7",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -33,6 +32,7 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.3",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9"
   }
