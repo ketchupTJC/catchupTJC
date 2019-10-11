@@ -32,6 +32,7 @@ Install [NodeJS](https://nodejs.org/en/) with its package manager [npm](https://
 Once the Node Package Manager(npm) is installed, run the following commands in terminal:
 
 ```bash
+cd catchupTJC
 npm install
 ```
 
@@ -43,12 +44,19 @@ To run the application use the following commands in terminal:
 
 ```bash
 npm run build
+```
+
+And in another terminal tab or window:
+
+```bash
 npm run start-dev
 ```
 
 These commands will build the project locally and host onto local machine on port 8080 which can be accessed by typing "http://localhost:8080/" into your browser address.
 
 Any changes you make will reflect on the browser on save.
+
+These commands runs continuously in the background. To stop each one, hit `Ctrl+C` or `control+C` in the respective tabs.
 
 ## Teamwork
 
