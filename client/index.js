@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Root from './root';
 
 ReactDOM.render(
-  <div>Let's catch up guys :D</div>,
-  document.getElementById('app')
+    <div>
+        <Root />
+    </div>,
+    document.getElementById('app')
 );
