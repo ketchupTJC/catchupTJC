@@ -13,12 +13,20 @@ const useStyles = makeStyles(theme => ({
 
 const Login = ({ loggedIn, setLoggedIn }) => {
     const classes = useStyles();
+    const initialState = {
+        email: '',
+        password: '',
+        isSubmitting: false,
+        errorMessage: null,
+    };
+    const [data, setData] = React.useState(initialState);
+
     console.log('state', loggedIn, setLoggedIn);
     return (
         <Button
             variant="outlined"
             className={classes.button}
-            onClick={() => setLoggedIn(true)}
+            onClick={() => setData(true)}
         >
             Log In
         </Button>
