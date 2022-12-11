@@ -22,7 +22,7 @@
     "homepage": "https://github.com/ketchupTJC/catchupTJC#readme",
     "dependencies": {
         "@material-ui/core": "^4.5.0",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "path": "^0.12.7",
         "pg": "^7.12.1",
         "react": "^16.10.2",
